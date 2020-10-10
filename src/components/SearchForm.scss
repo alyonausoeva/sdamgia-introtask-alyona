@@ -17,6 +17,7 @@ $disabledButton: #ccc;
     height: 40px;
     width: 80px;
     color: white;
+
     &_disabled {
       background-color: $disabledButton;
       border-color: $disabledButton;
