@@ -9,17 +9,4 @@ $disabledButton: #ccc;
     width: 200px;
     height: 30px;
   }
-
-  &-Button {
-    border: 5px solid $activeButton;
-    background-color: $activeButton;
-    border-radius: $radius;
-    height: 40px;
-    width: 80px;
-    color: white;
-    &_disabled {
-      background-color: $disabledButton;
-      border-color: $disabledButton;
-    }
-  }
 }

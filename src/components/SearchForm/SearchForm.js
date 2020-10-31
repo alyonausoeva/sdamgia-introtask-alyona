@@ -3,6 +3,7 @@ import { cn } from "@bem-react/classname";
 
 import { useHelpers } from "./hooks";
 import Subject from "./Subject/Subject";
+import { Button } from "../Button/Button.tsx";
 import "./SearchForm.scss";
 
 const SearchForm = () => {
@@ -21,12 +22,7 @@ const SearchForm = () => {
           value={value}
           onChange={handleChange}
         />
-        <button
-          className={cnSearchForm("Button", { disabled: !value })}
-          disabled={!value}
-        >
-          Поиск
-        </button>
+        <Button disabled={!value} />
       </form>
       <Subject />
     </div>
